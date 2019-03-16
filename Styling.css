@@ -1,0 +1,897 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+  }
+
+  #welcome-screen{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/MyPic.jpg);
+    background-size: cover;
+  }
+
+  .sidebar-1{
+  position: fixed;
+  width: 1%;
+  background-color: white;
+  height: 7%;
+  margin: 0px;
+  top: 7%;
+  }
+
+  .sidebar-2{
+    position: fixed;
+    width: 1%;
+    background-color: lightgreen;
+    height: 7%;
+    margin: 0px;
+    top: 17%;
+    }
+
+    .sidebar-3{
+      position: fixed;
+      width: 1%;
+      background-color: orange;
+      height: 7%;
+      margin: 0px;
+      top: 27%;
+      }
+
+      .sidebar-4{
+        position: fixed;
+        width: 1%;
+        background-color: lightblue;
+        height: 7%;
+        margin: 0px;
+        top: 37%;
+        }
+
+        .sidebar-5{
+          position: fixed;
+          width: 1%;
+          background-color: lightpink;
+          height: 7%;
+          margin: 0px;
+          top: 47%;
+        }
+
+        
+        .sidebar-1-link{
+         
+          position: fixed;  
+          margin: 0px;
+          top: 8%;
+          left: 2%;
+          font-size: 25px;
+          text-decoration: none;
+          color: white;
+        }
+       
+        .sidebar-2-link{
+         
+          position: fixed;  
+          margin: 0px;
+          top: 18%;
+          left: 2%;
+          font-size: 25px;
+          text-decoration: none;
+          color: white;
+        }
+
+        .sidebar-3-link{
+         
+          position: fixed;  
+          margin: 0px;
+          top: 28%;
+          left: 2%;
+          font-size: 25px;
+          text-decoration: none;
+          color: white;
+        }
+
+        .sidebar-4-link{
+         
+          position: fixed;  
+          margin: 0px;
+          top: 38%;
+          left: 2%;
+          font-size: 25px;
+          text-decoration: none;
+          color: white;
+        }
+
+        .sidebar-5-link{
+         
+          position: fixed;  
+          margin: 0px;
+          top: 48%;
+          left: 2%;
+          font-size: 25px;
+          text-decoration: none;
+          color: white;
+        }
+        
+        .letter-1{
+          color: white;
+        }
+
+        .letter-2{
+          color: lightgreen;
+        }
+
+        .letter-3{
+          color: orange;
+        }
+
+        .letter-4{
+          color: lightblue;
+        }
+
+        .letter-5{
+          color: lightpink;
+        }
+
+
+        .sidebar-1-link:hover, .sidebar-2-link:hover, .sidebar-3-link:hover, .sidebar-4-link:hover, .sidebar-5-link:hover{
+          
+          text-decoration: none;
+          transition: all 1.5s;
+          color: grey;
+          animation-name: rotatingSidebar;
+          animation-duration: 1s;
+          }
+/*
+        .sidebar-1-link:visited, .sidebar-2-link:visited{
+
+          font-size: 50px;
+          color: red;
+
+          }
+*/
+        @keyframes rotatingSidebar {
+
+        0%{transform: rotate(20deg);}
+        25%{transform: rotate(50deg); font-size: 25px;}
+        50%{transform: rotate(10deg); font-size: 50px;}
+        100%{transform: rotate(0deg);}
+        
+          }
+
+      .name{
+        position: absolute;
+        left: -35%;
+        top: -60%;
+        width: 300px;
+        margin: 0px;
+      }
+
+      .name-p{
+        top: 50px;
+        font-size: 35px;
+        color: white;
+        font-family: comic 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+
+      .developer-designer{
+
+        position: absolute;
+        left: 20%;
+        top: 30%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+      .left-edge{
+        position: absolute;
+        font-size: 60px;
+        top: 20%;
+        left: -60%;
+        margin: 0px;
+      }
+
+      .right-edge{
+        position: absolute;
+        font-size: 60px;
+        top: 20%;
+        left: 120%;
+        margin: 0px;
+      }
+
+      /* Projects (Second Page)*/
+
+
+      .about-page{
+       
+        width: 100%;
+        height: 100vh;
+      background-color: grey;
+      }
+
+      .about-page-design{
+
+        width: 100%;
+        height: 7%;
+        background-color: lightgreen;
+      }
+
+      .about-page-design-p{
+        position: relative;
+        text-align: center;
+        top: 25%;
+        font-size: 20px;
+        font-weight: bold;
+      }
+/*
+      .about-page-content-1{
+        position: relative;
+        width: 800px;
+        height: 52vh;
+        border: 5px solid lightgreen;
+        background-color: black;
+        left: 10%;
+        top: 10%;
+      }
+*/
+      .about-page-content-1-p{
+        position: relative;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20px;
+        width: 300px;
+        top: 35vh;
+        left: 25%;
+        transform: translate(-50%, -20vh);
+      }
+
+      .resume{
+        color: lightgreen;
+      }
+
+      .resume:hover{
+        text-decoration: none;
+        color: black;
+      }
+
+      .about-page-content-2{
+        position: absolute;
+        left: 55%;
+        top: 150%;
+      }
+
+      #social-media{
+        font-size: 60px;
+      }
+
+      .fa-github{
+        position: relative;
+        right: 20%;
+        color: black;
+      }
+
+      .fa-linkedin{
+        position: relative;
+        right: 10%;
+        color: rgb(5, 104, 197);
+      }
+
+      .fa-codepen{
+        position: relative;
+        right: 0%;
+        color: black;
+      }
+
+      .fa-twitter{
+        position: relative;
+        left: 10%;
+        color: rgb(5, 104, 197);
+      }
+
+      .fa-free-code-camp{
+        position: relative;
+        left: 20%;
+        color: darkgreen;
+      }
+
+
+      .skills-page{
+      
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+      }
+
+      .skills-page-design{
+        
+        width: 100%;
+        height: 7%;
+        background-color: orange;
+      }
+
+      .skills-page-design-p{
+        position: relative;
+        text-align: center;
+        top: 25%;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+
+      /* Working Here!   */
+      
+      .big-container{
+       position: relative;
+       line-height: 2.0mm;
+       top: 15%;
+       transform: translateY(-25%);
+       left: 50%;
+       transform: translateX(-50%);
+       width: 50%;
+       height: 60%;
+      }
+
+
+      
+      .bar{
+        position: relative;
+        height: 30px;
+        width: 0%;
+        left: 0%;
+        top: 20%;
+        background-color: orange;
+      }
+
+      .bar-percent{
+        position: relative;
+        font-size: large;
+        font-weight: bold;
+        line-height: 30px;
+        left: 30%;
+        
+      }
+/*
+      .bar-names{
+        position: relative;
+        
+        width: 8%;
+        top: 8%;
+        left: 17%;
+      }
+*/
+      .bar-span-name{
+        position: relative;
+        width: 4%;
+        height: 35px;
+        font-size: large;
+        line-height: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+        left: 0%;
+        color: white;
+        
+        
+      }
+
+/* Working Here!   */
+
+      .projects-page{
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+      }
+
+      .projects-page-design{
+        width: 100%;
+        height: 7%;
+        background-color: lightblue;
+      }
+
+      .projects-page-design-p{
+
+        position: relative;
+        text-align: center;
+        top: 25%;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .projects-page-content{
+        position: relative;
+        margin: 0px;
+        width: 800px;
+        height: 60vh;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+        grid-template-rows: 130px 130px;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+      }
+
+      .projects{
+       position: relative;
+       width: 230px;
+       height: 130px;
+       background-color: lightblue;
+       left: 15%;
+       top: 100%;
+       border: 3px solid lightblue;
+       opacity: 10;
+      }
+
+      .projects-page-content-1{
+        background-image: url('/images/Drum Machine.jpg');
+        background-size: 300px 110px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .projects-page-content-2{
+        background-image: url('/images/JavaScript Calculator.jpg');
+        background-size: 300px 130px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      }
+
+      .projects-page-content-3{
+        background-image: url('/images/Pomodoro Clock.jpg');
+        background-size: 300px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .projects-page-content-4{
+        background-image: url('/images/Portfolio Page.jpg');
+        background-size: 300px 130px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .projects-page-content-5{
+        background-image: url('/images/Random Quote Machine.jpg');
+        background-size: 300px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .projects-page-content-6{
+        background-image: url('/images/Survey Form.jpg');
+        background-size: 300px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .projects-a{
+       /* display: none;*/
+       position: relative;
+       left: 20%;
+       top: 20%;
+       font-size: 17px;
+       text-decoration: none;
+       color: lightblue;
+       background-color: white;
+       display: none;
+      }
+/*
+      .projects:hover{
+        transform: scale(1.5);
+      }
+*/
+      .contact-page{
+
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+      }
+
+      .contact-page-design{
+        width: 100%;
+        height: 7%;
+        background-color: lightpink;
+      }
+
+      .contact-page-design-p{
+        position: relative;
+        text-align: center;
+        top: 25%;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      @keyframes moveleftonreveal {
+
+        0%{width: 0px;}
+        25%{width: 0px;}
+        50%{transform: translateX(-230px);}
+        100%{transform: translateX(210px);}
+      }
+
+      .contact-page-content{
+         position: relative;
+         width: 450px;
+         height: 45vh;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
+
+      .contact-page-content-1{
+        position: relative;
+        width: 400px;
+      }
+      .contact-page-content-1-p{
+        position: relative;
+        float: left;
+        margin-right:4%;
+        font-size: large;
+        font-weight: bold;
+        line-height: 2.5em;
+      }
+      .contact-page-content-1-span{
+        color: lightpink;
+        font-weight: bold;
+      }
+
+      .contact-page-content-2{
+        position: relative;
+        width: 400px;
+        
+      }
+      .contact-page-content-2-p{
+        position: relative;
+        float: left;
+        margin-right:4%;
+        font-size: large;
+        font-weight: bold;
+        line-height: 2.5em;
+      }
+      .contact-page-content-2-span{
+        color: lightpink;
+        font-weight: bold;
+      }
+
+      .contact-page-content-3{
+        position: relative;
+        width: 400px;
+        
+      }
+      .contact-page-content-3-p{
+        position: relative;
+        float: left;
+        margin-right:4%;
+        font-size: large;
+        font-weight: bold;
+        line-height: 2.5em;
+      }
+      .contact-page-content-3-span{
+        color: lightpink;
+        font-weight: bold;
+      }
+
+      .contact-page-content-4{
+        position: relative;
+        width: 400px;
+        
+      }
+      .contact-page-content-4-p{
+        position: relative;
+        float: left;
+        margin-right:4%;
+        font-size: large;
+        font-weight: bold;
+        line-height: 2.5em;
+      }
+      .contact-page-content-4-span{
+        color: lightpink;
+        font-weight: bold;
+      }
+      
+      .contact-page-content-submit{
+        position: relative;
+        width: 200px;
+        height: 50px;
+        font-size: large;
+        background-color: lightpink;
+        font-weight: bold;
+      }
+
+      .contact{
+        left: 50%;
+        transform: translate(-50%); 
+      }
+
+      input{
+        width: 300px;
+        height: 50px;
+      }
+      textarea{
+        width: 262px;
+        height: 50px;
+      }
+      .required-star{
+        color: red;
+      }
+
+      /* Responsive Page 1 */
+
+      .profile-pic-responsive{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        display: none;
+      }
+
+      @media screen and (max-width: 640px){                 /* Responsive Start Here! */
+
+        body{
+          overflow-x: hidden;
+        }
+
+        .profile-pic-responsive{
+         display: block;
+         position: relative;
+         width: 150px;
+         height: 150px;
+         left: 45%;
+         top: 50%;
+         border-radius: 25%;
+         
+        }
+
+        .name{
+          position: absolute;
+          left: -35%;
+          top: -60%;
+          width: 200px;
+          margin: 0px;
+        }
+
+        .name-p{
+          position: absolute;
+          top: 10%;
+          left: 0%;
+          font-size: 25px;
+          color: white;
+          font-family: comic 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          margin: 0px;
+        }
+  
+  
+        .developer-designer{
+  
+          position: absolute;
+          left: 50%;
+          top: 30%;
+          text-align: center;
+          color: white;
+          font-size: 15px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          
+          }
+
+          .about-page-content-1-p{
+            position: relative;
+            color: white;
+            font-weight: bold;
+            text-align: left;
+            font-size: 15px;
+            width: 200px;
+            top: 25vh;
+            left: 65%;
+            transform: translate(-50%, -20vh);
+          }
+
+          .about-page-content-2{
+            position: absolute;
+            left: 30%;
+            top: 185%;
+          }
+    
+          #social-media{
+            font-size: 30px;
+          }
+
+          .big-container{
+            position: relative;
+            line-height: 2.0mm;
+            top: 15%;
+            transform: translateY(-25%);
+            left: 65%;
+            transform: translateX(-50%);
+            width: 50%;
+            height: 60%;
+           }
+
+           .projects-page-content{
+            position: relative;
+            width: 180px;
+            height: 90vh;
+            top: 30%;
+            transform: translate(-50%, -50%);
+            left: 70%;
+            display: grid;
+            grid-template-columns: 100px;
+            grid-template-rows: 130px 130px 130px 130px 130px 130px;
+            grid-row-gap: 0px;
+            grid-column-gap: 0px;
+          }
+
+          .projects-page-content-1, .projects-page-content-2, .projects-page-content-3, .projects-page-content-4, .projects-page-content-5, .projects-page-content-6{
+            margin: 0px;
+            padding: 0px;
+          }
+    
+          .projects{
+           position: relative;
+           width: 150px;
+           height: 80px;
+           background-color: lightblue;
+           left: 15%;
+           top: 100%;
+           border: 3px solid lightblue;
+          }
+    
+          .projects-page-content-1{
+            background-image: url('/images/Drum Machine.jpg');
+            background-size: 300px 110px;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+    
+          .projects-page-content-2{
+            background-image: url('/images/JavaScript Calculator.jpg');
+            background-size: 300px 130px;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+          }
+    
+          .projects-page-content-3{
+            background-image: url('/images/Pomodoro Clock.jpg');
+            background-size: 300px 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+    
+          .projects-page-content-4{
+            background-image: url('/images/Portfolio Page.jpg');
+            background-size: 300px 130px;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+    
+          .projects-page-content-5{
+            background-image: url('/images/Random Quote Machine.jpg');
+            background-size: 300px 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+    
+          .projects-page-content-6{
+            background-image: url('/images/Survey Form.jpg');
+            background-size: 300px 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          .contact-page-content{
+            position: relative;
+            width: 240px;
+            height: 32vh;
+            top: 50%;
+            left: 65%;
+            transform: translate(-50%, -50%);
+       }
+   
+         .contact-page-content-1{
+           position: relative;
+           width: 400px;
+         }
+         .contact-page-content-1-p{
+           position: relative;
+           float: left;
+           margin-right:4%;
+           font-size: medium;
+           font-weight: bold;
+           line-height: 2em;
+         }
+         .contact-page-content-1-span{
+           color: lightpink;
+           font-weight: bold;
+         }
+   
+         .contact-page-content-2{
+           position: relative;
+           width: 400px;
+           
+         }
+         .contact-page-content-2-p{
+           position: relative;
+           float: left;
+           margin-right:4%;
+           font-size: medium;
+           font-weight: bold;
+           line-height: 2em;
+         }
+         .contact-page-content-2-span{
+           color: lightpink;
+           font-weight: bold;
+         }
+   
+         .contact-page-content-3{
+           position: relative;
+           width: 400px;
+           
+         }
+         .contact-page-content-3-p{
+           position: relative;
+           float: left;
+           margin-right:4%;
+           font-size: medium;
+           font-weight: bold;
+           line-height: 2em;
+         }
+         .contact-page-content-3-span{
+           color: lightpink;
+           font-weight: bold;
+         }
+   
+         .contact-page-content-4{
+           position: relative;
+           width: 400px;
+           
+         }
+         .contact-page-content-4-p{
+           position: relative;
+           float: left;
+           margin-right:4%;
+           font-size: medium;
+           font-weight: bold;
+           line-height: 2em;
+         }
+         .contact-page-content-4-span{
+           color: lightpink;
+           font-weight: bold;
+         }
+         
+         .contact-page-content-submit{
+           position: relative;
+           width: 200px;
+           height: 50px;
+           font-size: large;
+           background-color: lightpink;
+           font-weight: bold;
+         }
+   
+         .contact{
+           left: 50%;
+           transform: translate(-50%);
+           width: 200px;
+           background-color: green;
+         }
+   
+         input{
+           width: 100px;
+           height: 35px;
+         }
+         textarea{
+           width: 100px;
+           height: 35px;
+         }
+
+      }
+
+
+      
+      
+          
+
+    
