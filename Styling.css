@@ -870,9 +870,9 @@ html, body{
          }
    
          .contact{
-           left: 50%;
+           left: 30%;
            transform: translate(-50%);
-           width: 210px; 
+           width: 310px; 
          }
    
          input{
