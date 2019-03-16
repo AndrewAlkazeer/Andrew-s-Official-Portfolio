@@ -799,7 +799,7 @@ html, body{
            margin-right:4%;
            font-size: medium;
            font-weight: bold;
-           line-height: 2.5em;
+           line-height: 2em;
          }
          .contact-page-content-1-span{
            color: lightpink;
@@ -817,7 +817,7 @@ html, body{
            margin-right:4%;
            font-size: medium;
            font-weight: bold;
-           line-height: 2.5em;
+           line-height: 2em;
          }
          .contact-page-content-2-span{
            color: lightpink;
@@ -835,7 +835,7 @@ html, body{
            margin-right:4%;
            font-size: medium;
            font-weight: bold;
-           line-height: 2.5em;
+           line-height: 2em;
          }
          .contact-page-content-3-span{
            color: lightpink;
@@ -853,7 +853,7 @@ html, body{
            margin-right:4%;
            font-size: medium;
            font-weight: bold;
-           line-height: 2.5em;
+           line-height: 2em;
          }
          .contact-page-content-4-span{
            color: lightpink;
@@ -870,18 +870,18 @@ html, body{
          }
    
          .contact{
-           left: 30%;
+           left: 50%;
            transform: translate(-50%);
-           width: 310px; 
+           width: 200px; 
          }
    
          input{
            width: 100px;
-           height: 30px;
+           height: 35px;
          }
          textarea{
            width: 100px;
-           height: 30px;
+           height: 35px;
          }
 
       }
